@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: bmp-sim-connectivity-bussiness-service-svc
+  namespace: dtag-dev
+  labels:
+    app: bmp-sim-connectivity-bussiness-service
+    version: latest
+spec:
+  type: NodePort
+  externalTrafficPolicy: Cluster
+  ports:
+  - port: 9087
+    nodePort: 30932
+    targetPort: 9087
+    protocol: TCP
+  selector:
+    app: bmp-sim-connectivity-bussiness-service
+    version: latest

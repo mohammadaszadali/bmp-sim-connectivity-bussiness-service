@@ -1,0 +1,17 @@
+apiVersion: 1.0.0
+logging:
+    level:
+        com:
+            assignment:
+                springboot:
+                    mongo: DEBUG
+    pattern:
+        console: '%d{yyyy-MM-dd HH:mm:ss} - %msg%n'
+server:
+    port: 9087
+spring:
+    data:
+        mongodb:
+            database: BMP_SIM_CONNECTIVITY_1
+            host: 172.29.1.114
+            port: 27017
