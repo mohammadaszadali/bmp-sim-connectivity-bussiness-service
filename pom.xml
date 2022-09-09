@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.dtag.bm.simConnectivity.service</groupId>
 	<artifactId>bmp-sim-connectivity-bussiness-service</artifactId>
-	<version>1.0</version>
+	<version>1.0-SNAPSHOT</version>
 	<name>sim-connectivity-bussiness-service</name>
 	<description>Sim Connectivity bussiness Service</description>
 	<properties>
